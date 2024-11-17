@@ -1,0 +1,48 @@
+body {
+  background-color: lightblue;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  padding: 20px;
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.heading {
+  color: rgb(202, 45, 45);
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 20%;
+  max-width: 600px;
+  height: 120px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  background-color: #eeeeee;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: rgb(239, 151, 69);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  transition: all 0.9s ease-in-out;
+}
+
+button:hover {
+  background-color: rgb(236, 203, 120);
+}
